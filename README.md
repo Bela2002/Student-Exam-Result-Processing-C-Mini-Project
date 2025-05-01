@@ -1,14 +1,62 @@
-# Student-Exam-Result-Processing-C-Mini-Project
+# 🎓 Student Exam Result Processing (C Mini Project)
 
+A **C programming mini-project** developed to automate the processing of student exam results for an educational institution.  
+This console-based application emphasizes core programming principles like **input validation**, **loops**, and **data analysis**.
 
-This C programming mini-project is designed to process student exam results for an educational institution. It includes the following features:
+---
 
--Accepts the number of students and subjects.
--Ensures valid input (positive values for students/subjects, marks between 0-100).
--Calculates total marks, average marks, and the number of passed/failed subjects per student.
--A subject is considered passed if the student scores at least 35 marks.
--A student passes the exam if their average score is at least 30%.
--Determines class performance, including:
-*Overall class average
-*Highest average score
-*Pass/fail count and percentages
+## 📖 Overview
+
+This project allows users to enter marks for multiple students across several subjects, then calculates and displays detailed result statistics for each student and the overall class performance.
+
+---
+
+## 🎯 Key Features
+
+- 🧑‍🎓 **Dynamic Student & Subject Entry:**  
+  Accepts user-defined number of students and subjects.
+
+- ✅ **Input Validation:**  
+  - Ensures positive values for number of students and subjects.  
+  - Validates marks are within the **0 - 100** range.
+
+- 📊 **Per-Student Results:**  
+  - Calculates total and average marks.  
+  - Counts passed and failed subjects per student.  
+  - Marks a subject as **passed** if score ≥ **35**.  
+  - A student **passes overall** if their average ≥ **30%**.
+
+- 🏆 **Class Performance Summary:**  
+  - 📈 Overall class average  
+  - 🥇 Highest average score  
+  - ✔️ Number and percentage of passed students  
+  - ❌ Number and percentage of failed students
+
+---
+
+## 🛠️ Built With
+
+- 📘 C Programming Language
+- 🖥️ Console Interface (Standard Input/Output)
+
+---
+
+## 🧪 Concepts Practiced
+
+- Arrays
+- Nested loops
+- Functions
+- Conditional logic
+- Aggregation and percentage calculations
+- Input validation and error handling
+
+---
+
+## 🚀 How to Run
+
+1. Open the project in a C IDE (e.g., Code::Blocks, Dev C++, or Visual Studio)  
+   **OR** use a terminal with GCC compiler.
+
+2. Compile the file:
+   ```bash
+   gcc student_results.c -o student_results
